@@ -1,0 +1,67 @@
+{
+  "name": "capz",
+  "version": "0.0.0",
+  "description": "Capture screenshots of websites in various resolutions using chromeless.",
+  "bin": {
+    "capz": "cli.js"
+  },
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "test": "ava",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "ora": "^1.3.0",
+    "p-map": "^1.1.1",
+    "puppeteer": "^0.10.1",
+    "tempy": "^0.1.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.5.0",
+    "eslint-config-concise": "^0.11.0",
+    "eslint-config-concise-ava": "^0.11.0"
+  },
+  "repository": "ratson/capz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "*.md",
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "screenshot",
+    "screenshots",
+    "puppeteer",
+    "web",
+    "device",
+    "chromeless",
+    "page",
+    "website",
+    "site",
+    "web",
+    "url",
+    "resolution",
+    "size",
+    "screengrab",
+    "screen",
+    "snapshot",
+    "shot",
+    "responsive",
+    "image",
+    "svg",
+    "render",
+    "html",
+    "headless",
+    "capture",
+    "pic",
+    "picture",
+    "png",
+    "jpg",
+    "jpeg"
+  ]
+}
