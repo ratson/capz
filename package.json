@@ -1,6 +1,6 @@
 {
   "name": "capz",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Capture screenshots of websites in various resolutions using chromeless.",
   "bin": {
     "capz": "cli.js"
