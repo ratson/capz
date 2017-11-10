@@ -32,5 +32,5 @@ module.exports = async ({ outputDir, url, fullPage = true }) => {
     { concurrency: 1 },
   )
 
-  browser.close()
+  await browser.close()
 }
